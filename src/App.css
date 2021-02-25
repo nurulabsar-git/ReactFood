@@ -1,4 +1,37 @@
-.App {
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  height: 4vh;
+
+}
+
+.search-button{
+  background: lightcoral;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +69,4 @@
     transform: rotate(360deg);
   }
 }
+  */
